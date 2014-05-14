@@ -8,7 +8,7 @@ num: 1
 This template was created for OpenTechSchool Brussels. It is meant to ease the creation of materials for the workshop, have a brand presence, and have a coherency between materials.
 
 This template will evolve and get more and more features as feelings of them being required grow. If you already think of something to add, be sure to drop us a message.
-<!--
+
 ##How to create a course from this template##
 
 Everything was done so that you would have to modify as less files as possible. This template uses Jekyll as a back bone. You can publish it whenever jekyll is installed. If you're making the course for OTS, think of hosting that on a github page, many workshops are already there.
@@ -44,4 +44,4 @@ Alwas keep the layout by default (unless you want to create a new one). In title
 If you prefere, you can also add straight `.html` files. Be sure to still keep the headers (layout, title & num).
 
 If you're not sure how & what to write in either HTML or Markdown: we are built on Jekyll, and using redCarpet. If this doesn't help you much or if you have any issue creating your course material based, be sure to send me a message: [roman@opentechschool.org](mailto:roman@opentechschool.org).
--->
+
