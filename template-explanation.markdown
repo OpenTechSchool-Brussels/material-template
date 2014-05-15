@@ -13,7 +13,7 @@ This template will evolve and get more and more features as feelings of them bei
 
 Everything was done so that you would have to modify as less files as possible. This template uses Jekyll as a back bone. You can publish it whenever jekyll is installed. If you're making the course for OTS, think of hosting that on a github page, many workshops are already there.
 
-First, you'll need to copy past the whole folder of this template. Then you'll only have to modify a few files (`_config.yml`, `_data/authors/yml` and `index.markdown`.) and add the ones representing your course's pages.
+First, you'll need to copy past the whole folder of this template. Then you'll only have to modify a few files (`_config.yml`, `_data/authors/yml` and `index.html`.) and add the ones representing your course's pages.
 
 #####Configuration: `_config.yml`#####
 In this file we descrive configuration parameteres that are on the website scale. Nothing much to be done here, you'll only need to modify two elements:  
@@ -24,7 +24,7 @@ In this file we descrive configuration parameteres that are on the website scale
 In this file we add informations about the authors of the workshop. Just modify the information of the current author, and copy past it to add as many authors as you wish.  
 All the authors' information is shown in the about page.
 
-#####Welcoming page: `index.markdown`#####
+#####Welcoming page: `index.html`#####
 This is your home page. Write there a welcoming message, description of your website, pasta cooking recipy... This is the first thing your students will see, make it nice!
 
 #####Your pages#####
