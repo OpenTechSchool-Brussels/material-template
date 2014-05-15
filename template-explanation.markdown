@@ -43,5 +43,19 @@ Alwas keep the layout by default (unless you want to create a new one). In title
 
 If you prefere, you can also add straight `.html` files. Be sure to still keep the headers (layout, title & num).
 
+##Hosting on github pages##
+
+1) Create your repository on github
+
+2) clone it localy
+
+3) create a new branche  
+`git checkout --orphan gh-pages`
+ 
+4) Add your stuff
+
+5) push it  
+`git push origin gh-pages`
+
 If you're not sure how & what to write in either HTML or Markdown: we are built on Jekyll, and using redCarpet. If this doesn't help you much or if you have any issue creating your course material based, be sure to send me a message: [roman@opentechschool.org](mailto:roman@opentechschool.org).
 
