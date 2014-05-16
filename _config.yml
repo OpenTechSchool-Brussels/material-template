@@ -1,5 +1,5 @@
 title: Template for OTS Brussels materials
-baseurl: 
+baseurl: http://opentechschool-brussels.github.io/material-template
 
 markdown: redcarpet
 redcarpet:
