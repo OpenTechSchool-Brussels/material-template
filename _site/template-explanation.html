@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>Template Explanation</title>
-        <base href="//" />
+        <base href="/" />
         
-        <link rel="stylesheet" href="//css/main.css" />
-        <link rel="stylesheet" href="//css/monokai_sublime.css">
+        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/css/monokai_sublime.css">
         <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
 
-        <script src="//js/highlight.pack.js"></script>
+        <script src="/js/highlight.pack.js"></script>
         <script> hljs.configure({tabReplace: '    '}); hljs.initHighlightingOnLoad();</script>
     </head>
 
@@ -19,7 +19,7 @@
         <!-- Header -->
         <div class="header">
             <a class="ots" href="http://www.opentechschool.org">OpenTechSchool</a>
-            <a href="//" id="titleHeader"> Generative Art Workshop with Processing</a>
+            <a href="/" id="titleHeader"> Template for OTS Brussels materials</a>
         </div>
       
         <!-- Middle part -->
@@ -29,18 +29,16 @@
 
 	<!-- Left menu-->
         <div class="aside">
-            <a href="//">Home</a>
+            <a href="/">Home</a>
             <ul>
-                            
-                    <li><a href="//readme.html">log_1 Template Explanation</a></li>
-                                
-                    <li><a href="//test.html">log_2 petit test entre ami</a></li>
-                                      
+                              
+                    <li><a href="/template-explanation.html">log_1 Template Explanation</a></li>
+                                  
             </ul>
 
-            <a href="//about.html">About</a>
+            <a href="/about.html">About</a>
             <p class="madeBy">
-                Course by  <a href="mailto:roman@opentechschool.org"> Roman </a>   for <a href="http://www.opentechschool.org/brussels/">OTS Brussels</a>
+                Course by  <a href="/about.html#Roman"> Roman </a>  &   <a href="/about.html#Roqeqzef"> Roqeqzef </a>  &   <a href="/about.html#zqefzeqf"> zqefzeqf </a>  &   <a href="/about.html#Rzqefqzfoman"> Rzqefqzfoman </a>   for <a href="http://www.opentechschool.org/brussels/">OTS Brussels</a>
             </p>
         </div>
 
@@ -50,14 +48,13 @@
 
 <p>This template was created for OpenTechSchool Brussels. It is meant to ease the creation of materials for the workshop, have a brand presence, and have a coherency between materials.</p>
 
-<p>This template will evolve and get more and more features as feelings of them being required grow. If you already think of something to add, be sure to drop us a message.
-&lt;!--</p>
+<p>This template will evolve and get more and more features as feelings of them being required grow. If you already think of something to add, be sure to drop us a message.</p>
 
 <h2>How to create a course from this template</h2>
 
 <p>Everything was done so that you would have to modify as less files as possible. This template uses Jekyll as a back bone. You can publish it whenever jekyll is installed. If you&#39;re making the course for OTS, think of hosting that on a github page, many workshops are already there.</p>
 
-<p>First, you&#39;ll need to copy past the whole folder of this template. Then you&#39;ll only have to modify a few files (<code>_config.yml</code>, <code>_data/authors/yml</code> and <code>index.markdown</code>.) and add the ones representing your course&#39;s pages.</p>
+<p>First, you&#39;ll need to copy past the whole folder of this template. Then you&#39;ll only have to modify a few files (<code>_config.yml</code>, <code>_data/authors/yml</code> and <code>index.html</code>.) and add the ones representing your course&#39;s pages.</p>
 
 <h5>Configuration: <code>_config.yml</code></h5>
 
@@ -70,7 +67,7 @@
 <p>In this file we add informations about the authors of the workshop. Just modify the information of the current author, and copy past it to add as many authors as you wish.<br>
 All the authors&#39; information is shown in the about page.</p>
 
-<h5>Welcoming page: <code>index.markdown</code></h5>
+<h5>Welcoming page: <code>index.html</code></h5>
 
 <p>This is your home page. Write there a welcoming message, description of your website, pasta cooking recipy... This is the first thing your students will see, make it nice!</p>
 
@@ -88,8 +85,21 @@ num: 1
 
 <p>If you prefere, you can also add straight <code>.html</code> files. Be sure to still keep the headers (layout, title &amp; num).</p>
 
-<p>If you&#39;re not sure how &amp; what to write in either HTML or Markdown: we are built on Jekyll, and using redCarpet. If this doesn&#39;t help you much or if you have any issue creating your course material based, be sure to send me a message: <a href="mailto:roman@opentechschool.org">roman@opentechschool.org</a>.
---&gt;</p>
+<h2>Hosting on github pages</h2>
+
+<p>1) Create your repository on github</p>
+
+<p>2) clone it localy</p>
+
+<p>3) create a new branche<br>
+<code>git checkout --orphan gh-pages</code></p>
+
+<p>4) Add your stuff</p>
+
+<p>5) push it<br>
+<code>git push origin gh-pages</code></p>
+
+<p>If you&#39;re not sure how &amp; what to write in either HTML or Markdown: we are built on Jekyll, and using redCarpet. If this doesn&#39;t help you much or if you have any issue creating your course material based, be sure to send me a message: <a href="mailto:roman@opentechschool.org">roman@opentechschool.org</a>.</p>
 
         </div>
 
@@ -97,7 +107,7 @@ num: 1
 
       <!-- Footer -->
       <div class="footer">
-          <p>©  <a href="mailto: ">Roman Miletitch, </a>  <a href="http://www.opentechschool.org">OpenTechSchool</a> || Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+          <p>©  <a href="mailto:roman@opentechschool.org">Roman Miletitch, </a>  <a href="mailto:roman@opentechschool.org">Roqeqzef Miletitch, </a>  <a href="mailto:roman@opentechschool.org">zqefzeqf Miletitch, </a>  <a href="mailto:roman@opentechschool.org">Rzqefqzfoman Miletitch, </a>  <a href="http://www.opentechschool.org">OpenTechSchool</a> || Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
           </p>
       </div>
 
