@@ -11,7 +11,7 @@ This template will evolve and get more and more features as feelings of them bei
 
 ##How to create a course from this template##
 
-First, you need to get [this template itslef](https://github.com/OpenTechSchool-Brussels/material-template) from github, or even better, fork it. 
+First, you need to get [this template itself](https://github.com/OpenTechSchool-Brussels/material-template) from github, or even better, fork it. 
 Everything was done so that you would have to modify as less files as possible. This template uses Jekyll as a back bone. You can publish it whenever jekyll is installed. If you're making the course for OTS, think of hosting that on a github page, many workshops are already there.
 
 First, you'll need to copy past the whole folder of this template. Then you'll only have to modify a few files (`_config.yml`, `_data/authors/yml` and `index.html`.) and add the ones representing your course's pages.
